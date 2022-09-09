@@ -1,0 +1,35 @@
+#!/bin/bash
+gcc -E $CFILE -0 c
+gcc -c $CFILE
+gcc -S $CFILE
+gcc $CFILE -o cisfun
+
+
+#includes <stdio.h>
+/**
+ * main is the entry point
+ * returns 0
+ */
+
+int main(void)
+{
+	puts("/"Programming is like building a multilingual puzzle");
+	return (0);
+)
+
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return(0);
+}
+
+int main(void)
+{
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
+
+	return(0);
+}
